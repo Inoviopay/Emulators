@@ -1,0 +1,730 @@
+{
+	"id": "8d674ee5-a586-a911-e236-00051e454c39",
+	"name": "NMI emulation API",
+	"description": "",
+	"order": [
+		"27b53920-517d-e78a-694c-34eb39006a67",
+		"0815408e-fc78-c38b-77fd-315442e5e1c7",
+		"f5e6d5a8-c13e-fd70-cc57-771bf247bb65",
+		"2e59d4e4-425b-ca45-bef4-7b1e7f41b197",
+		"77f150b7-6646-8f2c-4ef6-bbe6abd5705f"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1554126579835,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0815408e-fc78-c38b-77fd-315442e5e1c7",
+			"headers": "",
+			"headerData": [],
+			"url": "{{base_url}}",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "username",
+					"value": "inovio_api@chetu.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "password",
+					"value": "lQtbIbn20MDMWCNSNLpD",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "transactionid",
+					"value": "160237364",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "type",
+					"value": "refund",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1554983921839,
+			"name": "Refund",
+			"description": "",
+			"collectionId": "8d674ee5-a586-a911-e236-00051e454c39",
+			"responses": []
+		},
+		{
+			"id": "27b53920-517d-e78a-694c-34eb39006a67",
+			"headers": "",
+			"headerData": [],
+			"url": "{{base_url}}",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "username",
+					"value": "inovio_api@chetu.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "password",
+					"value": "lQtbIbn20MDMWCNSNLpD",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "ccnumber",
+					"value": "4111111111111111",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "ccexp",
+					"value": "1019",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "amount",
+					"value": "50.00",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "cvv",
+					"value": "",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "ipaddress",
+					"value": "65.192.14.10",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "orderid",
+					"value": "1234",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "orderdescription",
+					"value": "Big+Order",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "tax",
+					"value": "1.00",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping",
+					"value": "2.00",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "ponumber",
+					"value": "PO1234",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "firstname",
+					"value": "John",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "lastname",
+					"value": "Smith",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "company",
+					"value": "Acme%2C+Inc.",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address1",
+					"value": "123+Main+St",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address2",
+					"value": "Suite+200",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "city",
+					"value": "Beverly+Hills",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "state",
+					"value": "CA",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "zip",
+					"value": "90210",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "country",
+					"value": "US",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "phone",
+					"value": "555-555-5555",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "fax",
+					"value": "555-555-5556",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "email",
+					"value": "support%40example.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "website",
+					"value": "www.example.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_firstname",
+					"value": "Mary",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_lastname",
+					"value": "Smith",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_company",
+					"value": "na",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_address1",
+					"value": "124+Shipping+Main+St",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_address2",
+					"value": "Suite+Ship",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_city",
+					"value": "Beverly+Hills",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_state",
+					"value": "CA",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_zip",
+					"value": "90210",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_country",
+					"value": "US",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_email",
+					"value": "support%40example.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "type",
+					"value": "sale",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1554978077139,
+			"name": "sale",
+			"description": "",
+			"collectionId": "8d674ee5-a586-a911-e236-00051e454c39",
+			"responses": []
+		},
+		{
+			"id": "2e59d4e4-425b-ca45-bef4-7b1e7f41b197",
+			"headers": "",
+			"headerData": [],
+			"url": "{{base_url}}",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "username",
+					"value": "inovio_api@chetu.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "password",
+					"value": "lQtbIbn20MDMWCNSNLpD",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "ccnumber",
+					"value": "4111111111111111",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "ccexp",
+					"value": "102019",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "amount",
+					"value": "50.00",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "cvv",
+					"value": "",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "ipaddress",
+					"value": "65.192.14.10",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "orderid",
+					"value": "1234",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "orderdescription",
+					"value": "Big+Order",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "tax",
+					"value": "1.00",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping",
+					"value": "2.00",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "ponumber",
+					"value": "PO1234",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "firstname",
+					"value": "John",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "lastname",
+					"value": "Smith",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "company",
+					"value": "Acme%2C+Inc.",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address1",
+					"value": "123+Main+St",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address2",
+					"value": "Suite+200",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "city",
+					"value": "Beverly+Hills",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "state",
+					"value": "CA",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "zip",
+					"value": "90210",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "country",
+					"value": "US",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "phone",
+					"value": "555-555-5555",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "fax",
+					"value": "555-555-5556",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "email",
+					"value": "support%40example.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "website",
+					"value": "www.example.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_firstname",
+					"value": "Mary",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_lastname",
+					"value": "Smith",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_company",
+					"value": "na",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_address1",
+					"value": "124+Shipping+Main+St",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_address2",
+					"value": "Suite+Ship",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_city",
+					"value": "Beverly+Hills",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_state",
+					"value": "CA",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_zip",
+					"value": "90210",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_country",
+					"value": "US",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "shipping_email",
+					"value": "support%40example.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "type",
+					"value": "auth",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1554979940396,
+			"name": "authorize",
+			"description": "",
+			"collectionId": "8d674ee5-a586-a911-e236-00051e454c39",
+			"responses": []
+		},
+		{
+			"id": "77f150b7-6646-8f2c-4ef6-bbe6abd5705f",
+			"headers": "",
+			"headerData": [],
+			"url": "{{base_url}}",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8d674ee5-a586-a911-e236-00051e454c39",
+			"data": [
+				{
+					"key": "username",
+					"value": "inovio_api@chetu.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "password",
+					"value": "lQtbIbn20MDMWCNSNLpD",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "transactionid",
+					"value": "160237412",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "amount",
+					"value": "50.00",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "type",
+					"value": "capture",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"name": "capture",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1555674811172,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f5e6d5a8-c13e-fd70-cc57-771bf247bb65",
+			"headers": "",
+			"headerData": [],
+			"url": "{{base_url}}",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "username",
+					"value": "inovio_api@chetu.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "password",
+					"value": "lQtbIbn20MDMWCNSNLpD",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "transactionid",
+					"value": "160237386",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "type",
+					"value": "void",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1554983997459,
+			"name": "void",
+			"description": "",
+			"collectionId": "8d674ee5-a586-a911-e236-00051e454c39",
+			"responses": []
+		}
+	]
+}
